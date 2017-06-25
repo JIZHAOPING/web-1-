@@ -1,0 +1,83 @@
+body{
+	width:100%;
+	margin: 0;
+	background-image: url(../images4/bg.png);
+	background-repeat: no-repeat;
+
+}
+.nav{
+	display: block;
+	width: 100%;
+	height: 50px;
+	margin: 0px;
+	background-image: url(../images/1.png);
+	float: left;
+}
+.logo{
+	float: left;
+}
+.dh{
+	float: left;
+	height: 50px;
+	margin:0px 190px;
+	width: 600px;
+}
+.dh a{
+	display: block;
+	float: left;
+	color: #fff;
+	width:100px;
+	height: 50px;
+	line-height: 50px;
+	font-weight: bolder;
+	text-align: center;
+	text-decoration: none;
+}
+
+.dh a:hover{
+	height: 50px;
+	color: #000;
+	background-color: #fff;
+}
+fieldset.search {
+	float: right;
+	border: none;
+	width: 243px;
+	height: 20px;
+	margin: 0 auto;
+	background: #222;
+}
+.search input, .search button {
+	border: none;
+	float: left;
+}
+.search input.box {
+	color: #fff;
+	font-size: 1.2em;
+	width: 190px;
+	height: 30px;
+	padding: 8px 5px 0;
+	background: #616161  no-repeat left top;
+	margin-right: 5px;
+}
+.search input.box:focus {
+	background: #616161 url(../images/sou.png) no-repeat left -38px;
+	outline: none;
+}
+.search button.btn {
+	width: 38px;
+	height: 38px;
+	cursor: pointer;
+	text-indent: -9999px;
+	background: #fbc900 url(../images/sou.png) no-repeat top right;	
+}
+.table{
+
+	
+	margin:150px auto;
+	color: #fed204;
+	font-size: 16px;
+	font-weight: bolder;
+	font-family: "等线"
+}
+.table h2{color: #f78d00;font-family: "黑体";font-weight: bolder;}
